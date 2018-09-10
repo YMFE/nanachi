@@ -3,7 +3,7 @@ banner:
   name: '娜娜奇'
   desc: '基于React编写小程序的转译框架'
   btns: 
-    - { name: '开 始', href: './documents/index.html', primary: true }
+    - { name: '开 始', href: './documents/intro.html', primary: true }
     - { name: 'Github >', href: 'https://github.com/RubyLouvre/anu/tree/master/packages/cli' }
   caption: '当前版本: v1.0.0'
 features: 
