@@ -4,7 +4,7 @@ banner:
   desc: '基于React编写小程序的转译框架'
   btns: 
     - { name: '开 始', href: './documents/index.html', primary: true }
-    - { name: 'Github >', href: 'https://github.com/YMFE/ydoc' }
+    - { name: 'Github >', href: 'https://github.com/RubyLouvre/anu/tree/master/packages/cli' }
   caption: '当前版本: v1.0.0'
 features: 
   - { name: '三套模板', desc: '旅游，商城，企业三套通用模板' }
