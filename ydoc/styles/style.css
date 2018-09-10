@@ -2042,7 +2042,6 @@ pre[class*="language-"] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: transparent url(./ydoc/images/dogbg@2x.png) no-repeat;
 }
 
 .g-home .m-section-title {
