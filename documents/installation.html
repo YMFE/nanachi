@@ -4,11 +4,13 @@
       <div class="m-search-result js-search-result"></div>
     </div></div><nav class="m-header-nav js-nav"><ul class="m-header-items"><li class="item active"><a class="href" href="intro.html">documents</a></li><li class="item "><a class="href" href="../about/index.html">about</a></li></ul></nav><div id="js-nav-btn" class="m-header-btn ui-font-ydoc"></div></header><div class="m-content" id="js-content"><div id="markdown-body" class="m-content-container markdown-body"><h1>安装</h1>
 <p>要求nodejs 版本大于8.0</p>
-<p>git clone git@github.com:RubyLouvre/anu.git
-命令行定位到packages/cli目录下，执行npm link 如果之前装过要先npm unlink
-使用mpreact <project-name> 创建工程
-定位到 <project-name> 目录下 mpreact start 开始监听文件变化，
-用微信开发工具打开当中的dist目录，自己在src目录中进行开发</project-name></project-name></p>
+<pre><code class="language-shell">git clone git@github.com:RubyLouvre/anu.git
+# &#x6216; git clone https://github.com/RubyLouvre/anu.git
+</code></pre>
+<p>1 命令行定位到<code>packages/cli</code>目录下，执行<code>npm link</code>如果之前装过要先<code>npm unlink</code> <br>
+2 使用<code>mpreact &lt;project-name&gt;</code> 创建工程<br>
+3 定位到 <code>&lt;project-name&gt;</code> 目`录下 mpreact start 开始监听文件变化，<br>
+4 用微信开发工具打开当中的dist目录，自己在src目录中进行开发</p>
 </div><div class="m-content-container m-paging"><div class="m-paging-prev m-paging-item"><a href="intro.html" class="href"><span class="ui-font-ydoc"></span>documents</a></div><div class="m-paging-next m-paging-item"><a href="app.html" class="href">应用<span class="ui-font-ydoc"></span></a></div></div></div></div></div><div></div><script>
     var $content = document.getElementById('js-content');
     var $summaryItems = Array.prototype.slice.call(document.querySelectorAll('#js-menu .href'));
