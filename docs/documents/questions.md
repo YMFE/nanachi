@@ -1,5 +1,6 @@
 # 常见问题
 
+* 暂时不支持redux,请使用React.getApp().globalData来在页面间交换数据
 * render 里面不能定义变量,即不能出现var, const, let语句。render里只能使用JSX来描述结构，不能使用React.createElement。
 * 组件必须定义在components中
 * 页面引用了组件了，如果组件有样式，那么页面的样式表也要import这个组件的样式表

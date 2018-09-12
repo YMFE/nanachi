@@ -1,13 +1,11 @@
 # Summary
 
-* [安装](installation.md)
-
-### -----
-
 * [介绍](intro.md#)
-* [应用](app.md)
-* [页面](component.md)
-* [组件](component.md)
+* [安装](install.md)
+* [开发目录](src.md)
+* [应用组件](app.md)
+* [页面组件](page.md)
+* [通用组件](component.md)
 * [模板系统](jsx.md)
 * [事件系统](event.md)
 * [路由](router.md)
