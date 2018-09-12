@@ -15,7 +15,7 @@ git clone git@github.com:RubyLouvre/anu.git
 3 定位到 `<project-name>` 目录下 `mpreact start` 开始监听文件变化，<br />
 4 用微信开发者工具打开当中的dist目录，自己在src目录中进行开发
 
-![images/install_1.png](../../ydoc/images/install_1.png)
+![images/install_1.png](install_1.png)
 
 [接下来我们看src的开发目录吧](src.md)
 

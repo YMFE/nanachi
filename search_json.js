@@ -14,7 +14,7 @@ window.ydoc_plugin_search_json = {
     },
     {
       "title": "开发目录",
-      "content": "我们将创建的工程，用vscode打开大概如下",
+      "content": "我们将创建的工程，用vscode打开大概如下里面有dist, src, package.json等文件与目录dist是给微信用的src是开发目录\npackages.json是用来添加依赖，我们可以在这工程下｀npm i xxx`添加需要第三方库src目录有assets, components, pages, app.js等文件与目录。assets是用来放静态资源，图片什么都应该放在这里",
       "url": "/documents/src.html",
       "children": []
     },
