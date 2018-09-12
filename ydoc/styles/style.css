@@ -250,6 +250,7 @@ a:link, a:visited {
 
 .container {
   box-sizing: border-box;
+  
 }
 
 @media screen and (max-width: 600px) {
