@@ -5,12 +5,15 @@
     </div></div><nav class="m-header-nav js-nav"><ul class="m-header-items"><li class="item active"><a class="href" href="intro.html">documents</a></li><li class="item "><a class="href" href="../about/index.html">about</a></li></ul></nav><div id="js-nav-btn" class="m-header-btn ui-font-ydoc"></div></header><div class="m-content" id="js-content"><div id="markdown-body" class="m-content-container markdown-body"><h1>开发目录</h1>
 <p>我们将创建的工程，用vscode打开大概如下</p>
 <p><img src="src_1.png" alt="z"></p>
-<p>里面有dist, src, package.json等文件与目录</p>
-<p>dist是给微信用的
-src是开发目录
-packages.json是用来添加依赖，我们可以在这工程下｀npm i xxx`添加需要第三方库</p>
-<p>src目录有assets, components, pages, app.js等文件与目录。</p>
-<p>assets是用来放静态资源，图片什么都应该放在这里</p>
+<p>里面有</p>
+<p>1 dist,用来放编译好的文件，给微信运行的</p>
+<p>2 src, 用来开发</p>
+<p>3 packages.json用来添加依赖，如果你需要什么新依赖，你可以在当前工程下，｀npm i xxx`</p>
+<p>重点讲src</p>
+<p>src里面assets, 放静态资源，所有静态资源都应该放在这里 components用来放业务组件 pages用来页面组件 app.js为应用组件</p>
+<p>其他文件基本不用动。</p>
+<p>我们可以访问下面链接详细了解这三种组件，我们的开发也围张它们进行。</p>
+<p><a href="app.html">应用组件</a> <a href="page.html">页面组件</a> <a href="component.html">通用组件</a></p>
 </div><div class="m-content-container m-paging"><div class="m-paging-prev m-paging-item"><a href="install.html" class="href"><span class="ui-font-ydoc"></span>安装</a></div><div class="m-paging-next m-paging-item"><a href="app.html" class="href">应用组件<span class="ui-font-ydoc"></span></a></div></div></div></div></div><div></div><script>
     var $content = document.getElementById('js-content');
     var $summaryItems = Array.prototype.slice.call(document.querySelectorAll('#js-menu .href'));
