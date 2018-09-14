@@ -9,5 +9,7 @@
 * 静态资源统一放到src目录下的assets目录下
 * wxml模板部分，如果使用了箭头函数，那么它里面不能出现this关键字
 * 不要在props, state, context里面放JSX，因为JSX的结构容易出现环引用，导到微信小程序内部的JSON.stringify出错
+* slot机制与render props是有代价，它们会在components/Fragments目下添加许多当作桥梁用的碎片文件，不要滥用
+* render props机制只能用于有狀态组件，并且只应用于render属性，只能传一个参数，参数只能是this.state或this.props
 
 更多问题请到GITHUB提ISSUE或QQ 370262116

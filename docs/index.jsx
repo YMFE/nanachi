@@ -11,6 +11,7 @@ features:
   - { name: '支持slot', desc: '突破小程序template的限制，支持组件标签包含其他内容' }
   - { name: '支持事件传参', desc: '突破wxml的限制，实现多次bind this与参数' }
   - { name: '组件化编程', desc: '完美兼容React生命周期钩子' }
+  - { name: '支持Render Props', desc: '可以更自由地写组件' }
 
 footer:
   copyRight:
