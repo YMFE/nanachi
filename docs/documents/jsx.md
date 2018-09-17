@@ -6,6 +6,8 @@
 
 在小程序中，组件不支持包含其他标签，但我们的React组件可以充许包含其他标签或组件。
 
+有关循环，if, 组件套组件，render props等用法，可以脚手架的qunar示例
+
 ```jsx
 <Login>
   <p>xxxxx</p>

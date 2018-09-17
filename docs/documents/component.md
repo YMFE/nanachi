@@ -50,7 +50,7 @@ class Animal extends React.Component {
 export default Animal;
 ```
 
-由于目录可能比较深，因此娜娜美比较贴心地提供了两个默认的别美，@react 与@components, @react指向开发目录下的ReactWX.js, @components指向开发目录下的components目录。
+由于目录可能比较深，因此娜娜美比较贴心地提供了两个默认的别名，@react 与@components, @react指向开发目录下的ReactWX.js, @components指向开发目录下的components目录。
 
 
 JSX只能出现在render方法或无状态组件的函数体中。
